@@ -52,7 +52,7 @@ def main():
     if args.decrypt:
         shifts = -shifts
     output = doCaesar(text, shifts, alphabet)
-    print(f"Input: {text}\nOutput: {output}")
+    print(f"IN:\t{text}\nOUT:\t{output}\nKEY:\t{shifts} -> {alphabet}")
     writeToFile(output, args.output or "output.txt")
 
 

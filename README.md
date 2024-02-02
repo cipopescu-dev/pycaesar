@@ -12,6 +12,7 @@ options:
 ```
 ```bash
 python3 caesar.py -i input.txt -k key.txt 
-Input: Imi place sa mananc
-Output: Iam dpegi se aebebg
+IN:     Imi place sa mananc
+OUT:    Iam dpegi se aebebg
+KEY:    4 -> abcdefghijklmnop
 ```
